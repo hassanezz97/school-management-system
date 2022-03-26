@@ -55,6 +55,8 @@ Route::group(
 
     });
 
+    //==============================Parents============================
+    Route::view('add_parent','livewire.show_Form');
 });
 
 
