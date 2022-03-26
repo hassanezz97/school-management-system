@@ -1,15 +1,15 @@
 <?php
 
 return [
-
+    'add_parent' => 'Add parent',
     'Step1' => 'Father information',
     'Step2' => 'Mother information',
     'Step3' => 'Confirm information',
     'Email' => 'Email',
     'Password' => 'Password',
-    'Name_Father' => 'Father Name Arabic',
+    'Name_Father' => 'Father Name',
     'Name_Father_en' => 'Father Name English',
-    'Job_Father' => 'Job Title Arabic',
+    'Job_Father' => 'Job Title ',
     'Job_Father_en' => 'Job Title English',
     'National_ID_Father' => 'Identification Number',
     'Passport_ID_Father' => 'Passport Number',
@@ -33,6 +33,8 @@ return [
     'Choose' => 'Choose',
     'Finish' => 'Finish',
     'Back' => 'Back',
+    'Processes' => 'Processes',
+    'Check_Parents' => 'Check parents',
     'Confirm' => 'Are you sure that you want to save these information?',
 
 ];

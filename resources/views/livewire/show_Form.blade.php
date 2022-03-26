@@ -1,6 +1,6 @@
 @extends('layouts.master')
 @section('css')
-
+    @toastr_css
 @section('title')
     {{trans('main_trans.Add_Parent')}}
 @stop
@@ -27,4 +27,6 @@
 @endsection
 @section('js')
     @livewireScripts
+    @toastr_js
+    @toastr_render
 @endsection
