@@ -19,8 +19,20 @@ return [
     'Religion_Father_id' => 'Religion',
     'Address_Father' => 'Address Father',
 
+    //معلومات الام
+    'Name_Mother' => 'Mother Name Arabic',
+    'Name_Mother_en' => 'Mother Name English',
+    'Job_Mother' => 'Job Title Arabic',
+    'Job_Mother_en' => 'Job Title English',
+    'National_ID_Mother' => 'Identification Number',
+    'Passport_ID_Mother' => 'Passport Number',
+    'Phone_Mother' => 'Telephone Number',
+    'Address_Mother' => 'Address Mother',
+
     'Next' => 'Next',
     'Choose' => 'Choose',
+    'Finish' => 'Finish',
     'Back' => 'Back',
+    'Confirm' => 'Are you sure that you want to save these information?',
 
 ];
