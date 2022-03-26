@@ -47,6 +47,10 @@ return [
             'driver' => 'local',
             'root' => storage_path('app'),
         ],
+        'parent_attachments' => [
+            'driver' => 'local',
+            'root' => storage_path('app/parent_attachments'),
+        ],
 
         'public' => [
             'driver' => 'local',

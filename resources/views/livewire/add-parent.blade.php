@@ -37,17 +37,30 @@
                     @endif
 
                     <div class="col-xs-12">
-                        <br><br>
-                        <div class="col-md-12" >
-                            <h3 style="font-family: 'Cairo', sans-serif; text-align: center;">{{ trans('Parent_trans.Confirm') }}</h3><br>
-                            <button class="btn btn-danger btn-lg nextBtn btn-lg pull-right" type="button" style="margin-left: 20px;"
+                        <div class="col-md-12"><br>
+                            <label style="color: red">{{trans('Parent_trans.Attachments')}}</label>
+                            <div class="form-group">
+                                <input type="file" wire:model="photos" accept="image/*" multiple>
+                            </div>
+                            <br>
+
+                            <input type="hidden" wire:model="Parent_id">
+
+                            <button class="btn btn-danger btn-lg nextBtn btn-lg pull-right" type="button"
                                     wire:click="back(2)">{{ trans('Parent_trans.Back') }}</button>
-                            <button class="btn btn-success btn-lg btn-lg pull-right" wire:click="submitForm"
-                                    type="button" >{{ trans('Parent_trans.Finish') }}</button>
+
+                            @if($updateMode)
+                                <button class="btn btn-success btn-lg nextBtn btn-lg pull-right" wire:click="submitForm_edit"
+                                        type="button">{{trans('Parent_trans.Finish')}}
+                                </button>
+                            @else
+                                <button class="btn btn-success btn-lg btn-lg pull-right" wire:click="submitForm"
+                                        type="button">{{ trans('Parent_trans.Finish') }}</button>
+                            @endif
+
                         </div>
                     </div>
                 </div>
-        </div>
 
 
 
