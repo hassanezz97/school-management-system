@@ -24,6 +24,7 @@ return [
     'Attachments' => 'Attachments',
     'Student_details' => 'Student Details',
     'Deleted_Student' => 'Delete student data',
+    'Delete_Student' => 'Delete Student',
     'Deleted_Student_tilte' => 'Are you sure to delete the student ?',
     'Delete_attachment' => 'Delete_attachment',
     'Delete_attachment_tilte' => 'Are you sure to delete the attachment?',
@@ -56,6 +57,7 @@ return [
     'Manage-Promotions' => 'Manage Promotions',
     'unprompted-student' => 'Return Student',
     'return-student' => 'Are you sure you want to return ',
+    'return-graduate' => 'Are you sure you want to return the student?',
     'graduated-student' => 'Graduated Student',
 
 

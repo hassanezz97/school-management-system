@@ -24,6 +24,7 @@ return [
     'Attachments' => 'المرفقات',
     'Student_details' => 'معلومات الطالب',
     'Deleted_Student' => 'حذف بيانات الطالب',
+    'Delete_Student' => 'حذف الطالب',
     'Deleted_Student_tilte' => 'هل انت متأكد من حذف الطالب ؟',
     'Delete_attachment' => 'حذف مرفق',
     'Delete_attachment_tilte' => 'هل انت متأكد من حذف المرفق ؟',
@@ -53,5 +54,6 @@ return [
     'Manage-Promotions' => 'ادارة الترقيات',
     'unprompted-student' => 'تراجع الطالب',
     'return-student' => 'هل أنت متأكد من ارجاع ',
+    'return-graduate' => 'هل أنت متأكد من ارجاع الطالب؟',
     'graduated-student' => 'تخرج الطالب',
 ];
