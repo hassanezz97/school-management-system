@@ -3,10 +3,12 @@
 namespace App\Models;
 
 use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\SoftDeletes;
 use Spatie\Translatable\HasTranslations;
 
 class Student extends Model
 {
+    use SoftDeletes;
     use HasTranslations;
     public $translatable = ['name'];
     protected $guarded =[];
@@ -45,4 +47,21 @@ class Student extends Model
     {
         return $this->morphMany('App\Models\Image', 'imageable');
     }
+
+    // علاقة بين الطلاب والجنسيات  لجلب اسم الجنسية  في جدول الجنسيات
+
+    public function Nationality()
+    {
+        return $this->belongsTo('App\Models\Nationalitie', 'nationalitie_id');
+    }
+
+
+    // علاقة بين الطلاب والاباء لجلب اسم الاب في جدول الاباء
+
+    public function myparent()
+    {
+        return $this->belongsTo('App\Models\My_Parent', 'parent_id');
+    }
+
+
 }

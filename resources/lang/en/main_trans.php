@@ -16,7 +16,13 @@ return [
     'students'=>'Students',
     'add_student'=>'Add student',
     'list_students'=>'list Students',
-    'information_student'=>'Information Students',
+    'Students_Promotions'=>'Students Promotions',
+    'add_Promotion'=>'Promotions',
+    'list_Promotions'=>'Manage Promotions',
+    'add_Graduate'=>'Add Graduates',
+    'list_Graduate'=>'Graduates',
+
+    'Student_information'=>'Information Students',
     'Students_upgrade'=>'Students Upgrade',
     'Graduate_students'=>'Graduate Students',
     'Teachers'=>'Teachers',
@@ -32,7 +38,10 @@ return [
     'Settings'=>'Settings',
     'Users'=>'Users',
     'Copyright' => 'Copyright',
-    'Name_Programer' => 'SamirGamal MoraSoft All Rights Reserved'
+    'Name_Programer' => 'Hassan Ezzeddine All Rights Reserved',
+
+    ////////////////Promotions////////////////////////
+    'manage_Promotions'=>'Manage Students Promotions',
 
 
 ];

@@ -16,6 +16,11 @@ return [
     'students'=>'الطلاب',
     'add_student'=>'اضافة طالب جديد',
     'list_students'=>'قائمة الطلاب',
+    'Students_Promotions'=>'ترقية الطلاب',
+    'add_Promotion'=>'ترقية',
+    'list_Promotions'=>'ادارة الترقية',
+    'add_Graduate'=>'اضافة المتخرجين',
+    'list_Graduate'=>'المتخرجين',
     'Teachers'=>'المعلمين',
     'List_Teachers' => 'قائمة المعلمين',
     'Parents'=>'اولياء الامور',
@@ -29,7 +34,10 @@ return [
     'Settings'=>'الاعدادات',
     'Users'=>'المستخدمين',
     'Copyright' => 'جميع الحقوق محفوظة ',
-    'Name_Programer' => 'سمير جمال مورا سوفت'
+    'Name_Programer' => 'حسن عزالدين',
+
+     ////////////////Promotions////////////////////////
+    'manage_Promotions'=>'ادارة ترقية الطلاب',
 
 
 ];
