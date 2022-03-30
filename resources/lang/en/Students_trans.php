@@ -3,7 +3,7 @@
 return [
 
     'personal_information' => 'personal information',
-    'name' => 'Name',
+    'name' => 'Student name',
     'name_ar' => 'name_ar',
     'name_en' => 'name_en',
     'email' => 'email',
@@ -14,15 +14,17 @@ return [
     'Date_of_Birth' => 'Date_of_Birth',
     'Student_information' => 'Student information',
     'Grade' => 'Grade',
-    'classrooms' => 'classrooms',
-    'section' => 'section',
-    'parent' => 'parent',
-    'academic_year' => 'academic_year',
+    'classrooms' => 'Classroom',
+    'section' => 'Section',
+    'parent' => 'Parent',
+    'academic_year' => 'Academic year',
     'Processes' => 'Processes',
     'submit' => 'submit',
     'Close' => 'Close',
     'Attachments' => 'Attachments',
     'Student_details' => 'Student Details',
+    'edit_student' => 'Edit Student Details',
+    'add_fee' => 'Add a fee bill',
     'Deleted_Student' => 'Delete student data',
     'Delete_Student' => 'Delete Student',
     'Deleted_Student_tilte' => 'Are you sure to delete the student ?',
@@ -59,6 +61,28 @@ return [
     'return-student' => 'Are you sure you want to return ',
     'return-graduate' => 'Are you sure you want to return the student?',
     'graduated-student' => 'Graduated Student',
+
+
+    ////////////////////////// Fees /////////////////////
+    'add-fees' => 'Add New Fees',
+    'ac-fees' => 'Academic Fees',
+    'ed-ac-fees' => 'Edit Academic Fees',
+    'fee-name' => 'Name',
+    'fee-name-ar' => 'Name ar',
+    'fee-name-en' => 'Name en',
+    'Price' => 'Price',
+    'notes' => 'Notes',
+    'Deleted_Fees' => 'Delete Fees',
+    'Delete_Invoice' => 'Delete Invoice',
+    'Deleted_title' => 'Are you sure you want to delete this fee?',
+
+    //////Student Fees ///////
+    'fee-type' => 'Fees Type',
+    'statement' => 'Statement',
+    'st_invoices' => 'Students Invoices',
+    'edit_invoices' => 'Edit Student Invoices',
+
+
 
 
 ];

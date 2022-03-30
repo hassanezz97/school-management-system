@@ -23,6 +23,8 @@ return [
     'Close' => 'اغلاق',
     'Attachments' => 'المرفقات',
     'Student_details' => 'معلومات الطالب',
+    'edit_student' => ' تعديل بيانات الطالب',
+    'add_fee' => 'اضافة فاتورة رسوم',
     'Deleted_Student' => 'حذف بيانات الطالب',
     'Delete_Student' => 'حذف الطالب',
     'Deleted_Student_tilte' => 'هل انت متأكد من حذف الطالب ؟',
@@ -56,4 +58,25 @@ return [
     'return-student' => 'هل أنت متأكد من ارجاع ',
     'return-graduate' => 'هل أنت متأكد من ارجاع الطالب؟',
     'graduated-student' => 'تخرج الطالب',
+
+
+    ////////////////////////// Fees /////////////////////
+    'add-fees' => 'اضافة رسوم جديدة',
+    'ac-fees' => 'الرسوم الدراسية',
+    'ed-ac-fees' => 'تعديل رسوم دراسية',
+    'fee-name' => 'الاسم',
+    'fee-name-ar' => 'الاسم باللغة العربية',
+    'fee-name-en' => 'الاسم باللغة الانجليزية',
+    'Price' => 'المبلغ',
+    'notes' => 'ملاحظات',
+    'Deleted_Fees' => 'مسح الرسوم',
+    'Delete_Invoice' => 'حذف فاتورة',
+    'Deleted_title' => 'هل انت متأكد من عملية مسح هذه الرسوم؟',
+
+
+    //////Student Fees ///////
+    'fee-type' => 'نوع الرسوم',
+    'statement' => 'البيان',
+    'st_invoices' => 'فواتير الطلاب',
+    'edit_invoices' => 'تعديل فواتير الطالب',
 ];
